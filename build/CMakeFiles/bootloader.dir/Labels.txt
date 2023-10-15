@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/CMakeFiles/bootloader
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/CMakeFiles/bootloader.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/CMakeFiles/bootloader-complete.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

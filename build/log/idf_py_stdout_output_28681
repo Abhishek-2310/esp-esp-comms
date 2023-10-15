@@ -1,0 +1,115 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/abhi/esp32/esp-idf/projects/esp-esp-comms/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- App "esp-esp-comms" version: v5.2-dev-3318-g8fc8f3f479
+-- Adding linker script /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/abhi/esp32/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/abhi/esp32/esp-idf/components/app_trace /home/abhi/esp32/esp-idf/components/app_update /home/abhi/esp32/esp-idf/components/bootloader /home/abhi/esp32/esp-idf/components/bootloader_support /home/abhi/esp32/esp-idf/components/bt /home/abhi/esp32/esp-idf/components/cmock /home/abhi/esp32/esp-idf/components/console /home/abhi/esp32/esp-idf/components/cxx /home/abhi/esp32/esp-idf/components/driver /home/abhi/esp32/esp-idf/components/efuse /home/abhi/esp32/esp-idf/components/esp-tls /home/abhi/esp32/esp-idf/components/esp_adc /home/abhi/esp32/esp-idf/components/esp_app_format /home/abhi/esp32/esp-idf/components/esp_bootloader_format /home/abhi/esp32/esp-idf/components/esp_coex /home/abhi/esp32/esp-idf/components/esp_common /home/abhi/esp32/esp-idf/components/esp_eth /home/abhi/esp32/esp-idf/components/esp_event /home/abhi/esp32/esp-idf/components/esp_gdbstub /home/abhi/esp32/esp-idf/components/esp_hid /home/abhi/esp32/esp-idf/components/esp_http_client /home/abhi/esp32/esp-idf/components/esp_http_server /home/abhi/esp32/esp-idf/components/esp_https_ota /home/abhi/esp32/esp-idf/components/esp_https_server /home/abhi/esp32/esp-idf/components/esp_hw_support /home/abhi/esp32/esp-idf/components/esp_lcd /home/abhi/esp32/esp-idf/components/esp_local_ctrl /home/abhi/esp32/esp-idf/components/esp_mm /home/abhi/esp32/esp-idf/components/esp_netif /home/abhi/esp32/esp-idf/components/esp_netif_stack /home/abhi/esp32/esp-idf/components/esp_partition /home/abhi/esp32/esp-idf/components/esp_phy /home/abhi/esp32/esp-idf/components/esp_pm /home/abhi/esp32/esp-idf/components/esp_psram /home/abhi/esp32/esp-idf/components/esp_ringbuf /home/abhi/esp32/esp-idf/components/esp_rom /home/abhi/esp32/esp-idf/components/esp_system /home/abhi/esp32/esp-idf/components/esp_timer /home/abhi/esp32/esp-idf/components/esp_wifi /home/abhi/esp32/esp-idf/components/espcoredump /home/abhi/esp32/esp-idf/components/esptool_py /home/abhi/esp32/esp-idf/components/fatfs /home/abhi/esp32/esp-idf/components/freertos /home/abhi/esp32/esp-idf/components/hal /home/abhi/esp32/esp-idf/components/heap /home/abhi/esp32/esp-idf/components/http_parser /home/abhi/esp32/esp-idf/components/idf_test /home/abhi/esp32/esp-idf/components/ieee802154 /home/abhi/esp32/esp-idf/components/json /home/abhi/esp32/esp-idf/components/log /home/abhi/esp32/esp-idf/components/lwip /home/abhi/esp32/esp-idf/projects/esp-esp-comms/main /home/abhi/esp32/esp-idf/components/mbedtls /home/abhi/esp32/esp-idf/components/mqtt /home/abhi/esp32/esp-idf/components/newlib /home/abhi/esp32/esp-idf/components/nvs_flash /home/abhi/esp32/esp-idf/components/nvs_sec_provider /home/abhi/esp32/esp-idf/components/openthread /home/abhi/esp32/esp-idf/components/partition_table /home/abhi/esp32/esp-idf/components/perfmon /home/abhi/esp32/esp-idf/components/protobuf-c /home/abhi/esp32/esp-idf/examples/common_components/protocol_examples_common /home/abhi/esp32/esp-idf/components/protocomm /home/abhi/esp32/esp-idf/components/pthread /home/abhi/esp32/esp-idf/components/sdmmc /home/abhi/esp32/esp-idf/components/soc /home/abhi/esp32/esp-idf/components/spi_flash /home/abhi/esp32/esp-idf/components/spiffs /home/abhi/esp32/esp-idf/components/tcp_transport /home/abhi/esp32/esp-idf/components/ulp /home/abhi/esp32/esp-idf/components/unity /home/abhi/esp32/esp-idf/components/usb /home/abhi/esp32/esp-idf/components/vfs /home/abhi/esp32/esp-idf/components/wear_levelling /home/abhi/esp32/esp-idf/components/wifi_provisioning /home/abhi/esp32/esp-idf/components/wpa_supplicant /home/abhi/esp32/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader/esp-idf/esptool_py && /home/abhi/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/abhi/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/bootloader/bootloader.bin
+Bootloader binary size 0x6910 bytes. 0x6f0 bytes (6%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp-esp-comms-client.c.obj
+../main/esp-esp-comms-client.c: In function 'connect_tcp_server':
+../main/esp-esp-comms-client.c:86:10: warning: unused variable 'buffer' [-Wunused-variable]
+   86 |     char buffer[BUFFER_SIZE];
+      |          ^~~~~~
+../main/esp-esp-comms-client.c:85:40: warning: unused variable 'client_address' [-Wunused-variable]
+   85 |     struct sockaddr_in server_address, client_address;
+      |                                        ^~~~~~~~~~~~~~
+../main/esp-esp-comms-client.c:84:13: warning: unused variable 'server_socket' [-Wunused-variable]
+   84 |         int server_socket, client_socket;
+      |             ^~~~~~~~~~~~~
+../main/esp-esp-comms-client.c: At top level:
+../main/esp-esp-comms-client.c:69:13: warning: 'ip_event_handler' defined but not used [-Wunused-function]
+   69 | static void ip_event_handler(void* arg, esp_event_base_t event_base,
+      |             ^~~~~~~~~~~~~~~~
+../main/esp-esp-comms-client.c:48:13: warning: 'wifi_event_handler' defined but not used [-Wunused-function]
+   48 | static void wifi_event_handler(void* arg, esp_event_base_t event_base,
+      |             ^~~~~~~~~~~~~~~~~~
+[3/8] Linking C static library esp-idf/main/libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable esp-esp-comms.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev2
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+Generated /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/esp-esp-comms.bin
+[7/8] cd /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/esp-idf/esptool_py && /home/abhi/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/abhi/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/partition_table/partition-table.bin /home/abhi/esp32/esp-idf/projects/esp-esp-comms/build/esp-esp-comms.bin
+esp-esp-comms.bin binary size 0xbcee0 bytes. Smallest app partition is 0x100000 bytes. 0x43120 bytes (26%) free.
+[7/8] cd /home/abhi/esp32/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/abhi/esp32/esp-idf -D "SERIAL_TOOL=/home/abhi/.espressif/python_env/idf5.2_py3.8_env/bin/python;;/home/abhi/esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/abhi/esp32/esp-idf/projects/esp-esp-comms/build -P /home/abhi/esp32/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 esp-esp-comms.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev2
+Serial port /dev/ttyACM0
+Connecting.....
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: d4:d4:da:5d:e2:78
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000ccfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26896 bytes to 16865...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076ab... (100 %)
+Wrote 26896 bytes (16865 compressed) at 0x00001000 in 0.8 seconds (effective 253.8 kbit/s)...
+Hash of data verified.
+Compressed 773856 bytes to 500084...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c324... (6 %)
+Writing at 0x00024957... (9 %)
+Writing at 0x00029e55... (12 %)
+Writing at 0x000345d4... (16 %)
+Writing at 0x0003a77e... (19 %)
+Writing at 0x0003fed0... (22 %)
+Writing at 0x0004590b... (25 %)
+Writing at 0x0004b152... (29 %)
+Writing at 0x000505d4... (32 %)
+Writing at 0x00055c6b... (35 %)
+Writing at 0x0005b502... (38 %)
+Writing at 0x00060e4c... (41 %)
+Writing at 0x00066a7f... (45 %)
+Writing at 0x0006c37f... (48 %)
+Writing at 0x0007151c... (51 %)
+Writing at 0x00076a93... (54 %)
+Writing at 0x0007bca3... (58 %)
+Writing at 0x000813c1... (61 %)
+Writing at 0x00086b23... (64 %)
+Writing at 0x0008c4fd... (67 %)
+Writing at 0x00091e8e... (70 %)
+Writing at 0x00097665... (74 %)
+Writing at 0x0009d085... (77 %)
+Writing at 0x000a2d0c... (80 %)
+Writing at 0x000a87c6... (83 %)
+Writing at 0x000ae842... (87 %)
+Writing at 0x000b7f51... (90 %)
+Writing at 0x000be9c2... (93 %)
+Writing at 0x000c4d38... (96 %)
+Writing at 0x000c9f85... (100 %)
+Wrote 773856 bytes (500084 compressed) at 0x00010000 in 11.3 seconds (effective 549.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 361.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
